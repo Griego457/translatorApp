@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
+
+.language-selector-content {
+  display: flex;
+  justify-content: center;
+}
+
+.language-select {
+  padding: 10px;
+  width: 50%;
+}
+
+.input-result-container {
+  height: 80%;
+}
+
+.input-result-content {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+
+.input-result {
+  padding: 10px;
+  width: 95%;
+  height: 80%;
+  resize: none;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+textarea {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+
+.translate-button {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.translate-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .translate-button {
+    padding: 10px 30px;
+  }
+}
